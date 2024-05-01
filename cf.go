@@ -5,14 +5,13 @@ import (
 	"os"
 	"strings"
 
+	"github.com/docopt/docopt-go"
 	"github.com/fatih/color"
-	ansi "github.com/k0kubun/go-ansi"
+	"github.com/k0kubun/go-ansi"
 	"github.com/mitchellh/go-homedir"
 	"github.com/xalanq/cf-tool/client"
 	"github.com/xalanq/cf-tool/cmd"
 	"github.com/xalanq/cf-tool/config"
-
-	docopt "github.com/docopt/docopt-go"
 )
 
 const version = "v1.0.0"
